@@ -1,0 +1,1 @@
+package Jakob-Anderson; import org.quickconnectfamily.hybrid.QCAndroid; import org.quickconnectfamily.hybrid.R; import android.app.Activity; import android.os.Bundle; public class BYU-IdahoCampusMap extends QCAndroid { @Override public void onCreate(Bundle theBundle) {  super.onCreate(theBundle); } }

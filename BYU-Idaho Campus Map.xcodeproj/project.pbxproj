@@ -10,9 +10,6 @@
 		285AB52315C060D200C578DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52215C060D200C578DD /* UIKit.framework */; };
 		285AB52515C060D200C578DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52415C060D200C578DD /* Foundation.framework */; };
 		285AB52715C060D200C578DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52615C060D200C578DD /* CoreGraphics.framework */; };
-		285AB52815C060D200C578DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52415C060D200C578DD /* Foundation.framework */; };
-		285AB52915C060D200C578DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52215C060D200C578DD /* UIKit.framework */; };
-		285AB52A15C060D200C578DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52615C060D200C578DD /* CoreGraphics.framework */; };
 		285AB52C15C060D200C578DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52B15C060D200C578DD /* QuartzCore.framework */; };
 		285AB52E15C060D200C578DD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52D15C060D200C578DD /* Accelerate.framework */; };
 		285AB53015C060D200C578DD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52F15C060D200C578DD /* AddressBook.framework */; };
@@ -28,7 +25,6 @@
 		285AB54415C060D200C578DD /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB54315C060D200C578DD /* QuickLook.framework */; };
 		285AB54615C060D200C578DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB54515C060D200C578DD /* StoreKit.framework */; };
 		285AB54815C060D200C578DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB54715C060D200C578DD /* SystemConfiguration.framework */; };
-		285AB54915C060D200C578DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB52B15C060D200C578DD /* QuartzCore.framework */; };
 		285AB54F15C060D200C578DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 285AB54D15C060D200C578DD /* InfoPlist.strings */; };
 		285AB55115C060D200C578DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 285AB55015C060D200C578DD /* main.m */; };
 		285AB55415C060D200C578DD /* qc_hybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AB55315C060D200C578DD /* qc_hybrid.a */; };
@@ -74,12 +70,12 @@
 		285AB54315C060D200C578DD /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		285AB54515C060D200C578DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		285AB54715C060D200C578DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		285AB54C15C060D200C578DD /* BYU-Idaho Campus Map-Info.plist */ = {isa = PBXFileReference; path = "BYU-Idaho Campus Map-Info.plist"; sourceTree = "<group>"; };
+		285AB54C15C060D200C578DD /* BYU-Idaho Campus Map-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BYU-Idaho Campus Map-Info.plist"; sourceTree = "<group>"; };
 		285AB54E15C060D200C578DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		285AB55015C060D200C578DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		285AB55215C060D200C578DD /* BYU-Idaho Campus Map-Prefix.pch */ = {isa = PBXFileReference; path = "BYU-Idaho Campus Map-Prefix.pch"; sourceTree = "<group>"; };
+		285AB55215C060D200C578DD /* BYU-Idaho Campus Map-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BYU-Idaho Campus Map-Prefix.pch"; sourceTree = "<group>"; };
 		285AB55315C060D200C578DD /* qc_hybrid.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = qc_hybrid.a; sourceTree = "<group>"; };
-		285AB55515C060D200C578DD /* QuickConnectViewController.h */ = {isa = PBXFileReference; path = QuickConnectViewController.h; sourceTree = "<group>"; };
+		285AB55515C060D200C578DD /* QuickConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickConnectViewController.h; sourceTree = "<group>"; };
 		285AB55615C060D200C578DD /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		285AB55815C060D200C578DD /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		285AB55A15C060D200C578DD /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
@@ -110,9 +106,6 @@
 				285AB52315C060D200C578DD /* UIKit.framework in Frameworks */,
 				285AB52515C060D200C578DD /* Foundation.framework in Frameworks */,
 				285AB52715C060D200C578DD /* CoreGraphics.framework in Frameworks */,
-				285AB52815C060D200C578DD /* Foundation.framework in Frameworks */,
-				285AB52915C060D200C578DD /* UIKit.framework in Frameworks */,
-				285AB52A15C060D200C578DD /* CoreGraphics.framework in Frameworks */,
 				285AB52C15C060D200C578DD /* QuartzCore.framework in Frameworks */,
 				285AB52E15C060D200C578DD /* Accelerate.framework in Frameworks */,
 				285AB53015C060D200C578DD /* AddressBook.framework in Frameworks */,
@@ -128,7 +121,6 @@
 				285AB54415C060D200C578DD /* QuickLook.framework in Frameworks */,
 				285AB54615C060D200C578DD /* StoreKit.framework in Frameworks */,
 				285AB54815C060D200C578DD /* SystemConfiguration.framework in Frameworks */,
-				285AB54915C060D200C578DD /* QuartzCore.framework in Frameworks */,
 				285AB55415C060D200C578DD /* qc_hybrid.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
